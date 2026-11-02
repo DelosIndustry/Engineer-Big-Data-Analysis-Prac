@@ -1,0 +1,41 @@
+﻿menu_id,menu_name,menu_group,base_price,calories,caffeine_mg,seasonal_yn,launch_month
+MN001,바닐라 오트 라떼,drink_coffee,2900,172,83.0,N,11
+MN002,시트러스 콜드티,meal,8400,621,28.0,N,11
+MN003,고소한 흑임자 라떼,drink_coffee,8700,157,120.0,N,1
+MN004,허브 애플티,bakery,6900,500,,N,2
+MN005,브라운 슈크림,meal,7800,318,33.0,N,3
+MN006,두유 말차 라떼,drink_blended,7900,417,5.0,N,6
+MN007,자몽 스파클,bakery,7200,601,32.0,Y,9
+MN008,플레인 베이글,meal,4300,471,28.0,N,12
+MN009,단호박 스프,drink_blended,7400,40,8.0,N,5
+MN010,라임 에이드,bakery,4300,230,49.0,N,7
+MN011,초코 그래놀라,drink_coffee,7500,148,174.0,N,2
+MN012,레몬 파운드,drink_coffee,5300,294,98.0,Y,8
+MN013,아몬드 크림라떼,drink_blended,8600,86,,Y,11
+MN014,피치 아이스티,bakery,7300,497,42.0,N,1
+MN015,바질 토마토 샌드,meal,4700,288,56.0,Y,1
+MN016,오렌지 루이보스,drink_tea,4500,355,5.0,N,8
+MN017,흑당 밀크티,drink_coffee,7000,306,119.0,N,6
+MN018,그릭요거트 컵,drink_blended,7100,31,57.0,Y,9
+MN019,카카오 크런치,bakery,5500,324,45.0,Y,9
+MN020,감자 치아바타,meal,3300,389,1.0,N,10
+MN021,딸기 요거트,drink_tea,5400,259,37.0,N,5
+MN022,오트 쿠키,bakery,5100,521,0.0,N,8
+MN023,민트 라임티,bakery,5000,559,28.0,N,3
+MN024,블루베리 스콘,drink_coffee,5600,171,142.0,N,8
+MN025,콜드브루 라떼,drink_blended,4200,88,60.0,N,1
+MN026,현미 크래커,drink_coffee,6100,411,188.0,Y,7
+MN027,유자 캐모마일,drink_coffee,4900,348,97.0,N,2
+MN028,시나몬 밀크,drink_blended,2900,280,45.0,Y,8
+MN029,치즈 포카치아,drink_coffee,8500,236,185.0,Y,4
+MN030,베리 스무디,drink_tea,5600,335,,N,8
+MN031,토피넛 라떼,drink_tea,7500,396,54.0,Y,9
+MN032,망고 블렌디드,bakery,6600,645,16.0,N,9
+MN033,크랜베리 샐러드,meal,6300,578,31.0,Y,6
+MN034,밤 크림라떼,drink_blended,7000,187,4.0,N,1
+MN035,코코넛 워터,bakery,5600,669,60.0,N,1
+MN036,카프레제 랩,drink_tea,5600,349,68.0,N,2
+MN037,솔티드 카라멜,bakery,5500,376,27.0,N,4
+MN038,오렌지 쇼콜라,drink_blended,3800,70,14.0,N,12
+MN039,그린 디톡스,meal,4700,303,45.0,N,1
+MN040,리코타 샌드,drink_tea,5300,94,9.0,Y,6

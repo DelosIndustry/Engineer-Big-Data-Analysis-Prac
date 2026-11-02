@@ -1,0 +1,26 @@
+# 빅데이터분석기사 실기 시험환경 재현용 conda 환경
+# 생성: conda env create -f environment.yml
+# 기준: 9회(2024.12) 이후 시험환경 = Google Colab 2024 기본 환경
+#   (출처: github.com/lovedlim/bigdata_analyst_cert README 배지 -
+#    Python 3.10.12 / pandas 2.0.3 / scikit-learn 1.2.2 / scipy 1.11.4 / statsmodels 0.14.1)
+# 주의: 공식 가이드는 "패키지는 회차별로 상이할 수 있음"이라고 명시함.
+#       시험 직전 체험환경(dataq.goorm.io)에서 check_versions.py 코드를 실행해 재확인 권장.
+name: bigdata
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10.12
+  - pip
+  - pip:
+      # ---- 시험환경 패키지 (버전 고정) ----
+      - setuptools==67.7.2      # pkg_resources 제공 (공식 패키지 확인 코드에서 사용)
+      - numpy==1.25.2
+      - pandas==2.0.3
+      - scipy==1.11.4
+      - scikit-learn==1.2.2
+      - statsmodels==0.14.1
+      - xgboost==2.0.3
+      - lightgbm==4.1.0
+      # ---- 실습 편의용 (시험환경에는 없음) ----
+      - ipykernel<7   # 7.0~7.3: shell reply bug -> VS Code cells hang "executing" (fixed only in 7.4, py>=3.11)
+      - jupyterlab
